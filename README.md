@@ -17,6 +17,7 @@
  - Xarray
  - Numpy
  - Matplotlib
+ - Cartopy
 
 # Methodology
  - Mean temperature change (ºC)
