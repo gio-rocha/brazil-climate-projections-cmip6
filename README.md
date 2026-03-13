@@ -18,6 +18,7 @@
  - Numpy
  - Matplotlib
  - Cartopy
+ - Geopandas
 
 # Methodology
  - Mean temperature change (ºC)
