@@ -73,7 +73,7 @@ for i in range(len(arqs_Ptop10)):
         modelo= ds_pr['pr'].sel(lat=slice(-60,15),lon=slice(275,330),time=slice('2081','2100'))
 
       #Conversão
-        pr_convertida = modelo * 86400
+        pr_convertida = modelo * 86400  #conversão de kg m-2 s-1 para mm/dia
 
         #Tirando a média temporal
         media_fut = pr_convertida.mean(dim="time")
